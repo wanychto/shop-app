@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Магазин</title>
+</head>
+
+<body>
+    <header>
+        <h1>Магазин</h1>
+        <input type="text" id="search" class="search" placeholder="Поиск товаров на сайте...">
+    </header>
+    <main>
+        <div id="products" class="products-grid"></div>
+        <p id="no-results" class="no-results">Ничего не найдено:( Попробуйте изменить поисковой запрос</p>
+    </main>
+
+
+    <div id="modal" class="modal modal-hidden">
+        <div class="modal-content">
+            <span id="close" class="close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-img">
+                    <img id="modal-img" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <div id="modal-title" class="modal-title"></div>
+                    <p class="descrip">Характеристики товара:</p>
+                    <div id="modal-desc" class="modal-desc"></div>
+                    <div id="modal-price" class="modal-price"></div>
+                    <button id="buy-btn" class="buy-btn">Купить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
