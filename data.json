@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Смарт-часы X100",
+        "price": 7490,
+        "category": "Гаджеты",
+        "image": "media/example1.png",
+        "description": "Водонепроницаемые, GPS, 7-дневный аккумулятор"
+    },
+    {
+        "id": 2,
+        "title": "Компьютерная мышь Razor M3020",
+        "price": 3990,
+        "category": "Переферия и аксессуары",
+        "image": "media/example2.jpg",
+        "description": "Проводная, 32000dpi, светодиодный сенсор"
+    },
+    {
+        "id": 3,
+        "title": "Игровая клавиатура Defender GX-2030",
+        "price": 2190,
+        "category": "Переферия и аксессуары",
+        "image": "media/example3.png",
+        "description": "Раскладка русская/английская, интерфейс подключения USB"
+    },
+    {
+        "id": 4,
+        "title": "Игровые наушники SVEN AP-UV9988",
+        "price": 4799,
+        "category": "Переферия и аксессуары",
+        "image": "media/example4.png",
+        "description": "Проводные, максимальная частота 20000Гц, чувствительность 108дБ"
+    },
+    {
+        "id": 5,
+        "title": "Умные часы T5E",
+        "price": 1229,
+        "category": "Гаджеты",
+        "image": "media/example5.jpg",
+        "description": "Влагоупорные, диаметр корпуса 41мм, GPS"
+    }
+]
